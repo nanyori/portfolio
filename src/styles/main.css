@@ -5,6 +5,7 @@
 }
 .row{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     padding: 20px;
@@ -15,7 +16,7 @@
 .header{
     background-color: white;
     width: 100vw;
-    height: 10vh;
+    height: 15vh;
     justify-content: space-between;
     position: fixed;
     box-shadow: 1px 1px 10px 2px #dcc0f7;
@@ -125,6 +126,7 @@ nav a:hover{
 /*******Skills************/
 .skills{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -171,7 +173,7 @@ nav a:hover{
     align-items: center;
     flex-direction: column;
     width: 100vw;
-    height: 120vh;
+    height: 150vh;
     background-color: blueviolet;
     text-align: center;
     color: #ffffff;
@@ -308,7 +310,7 @@ nav a:hover{
         width: 100%;
     }
     .header{
-        width: 100%;
+        width: 100vw;
         height: 20vh;
     }
     .overlay{
@@ -364,9 +366,44 @@ nav a:hover{
     .skills h2{
         font-size: 20px;
     }
-    .skills .row{
-        justify-content: space-around;
-        text-align: left;
+    .skills .row .tool{
+        padding-left: 80px;
+        padding-top: 20px;
     
     }
+    .works{
+        height: 300vh;
+    }
+    .works h1{
+        font-size: 40px;
+        padding: 20px 0px;
+    }
+    .projects{
+        flex-direction: column;
+    }
+    .project{
+        width: 80%;
+        margin: 50px 10%;
+    }
+    .contacts{
+        height: 150vh;
+        padding-top: 100px;
+    }
+    .contacts h1{
+        font-size: 40px;
+    }
+    .contacts .details{
+        flex-direction: column;
+    }
+    .contacts .details div{
+        width: 80%;
+    }
+    .footer h3{
+        width: 50%;
+        font-size: 14px;
+    }
+    .row .footer{
+        flex-direction: column;
+    }
+    
 }

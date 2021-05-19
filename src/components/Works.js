@@ -16,19 +16,19 @@ function Works(){
                     <div className="project">
                         <img src={project1} alt="Project One"/>
                         <h3>Raise Up</h3>
-                        <p>Project Description and links</p>
+                        <p>foundation for sewing training</p>
                         <button><a href="http://nanyori.lostnfound.co.tz/">Visit Website</a></button>
                     </div>
                     <div className="project">
                         <img src={project2} alt="Project One"/>
                         <h3>Fashion House</h3>
-                        <p>Project Description and links</p>
+                        <p>website deals with fashion</p>
                         <button><a href="https://nanyori.github.io/fashion-house/">Visit Website</a></button>
                         </div>
                     <div className="project">
                         <img src={project3} alt="Project One"/>
                         <h3>Today List</h3>
-                        <p>Project Description and links</p>
+                        <p>website which show your day routine</p>
                         <button><a href="https://nanyori.github.io/todaylist/">Visit Website</a></button>
                     </div>
                 </div>
